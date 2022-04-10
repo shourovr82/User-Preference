@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Merienda', cursive;
+}
+:root{
+  --main-color: linear-gradient(to right, #001510, #068d6b);
+}
+
+.dropdown {
+ 
+  
+  background-image: linear-gradient(to right, #000d04, #071e0f, #072d15, #043d18, #014d1a, #01592a, #00653a, #00714a, #007a67, #008183, #00879c, #068baf);
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  padding-bottom: 0;
+  padding-top: 1rem;
+}
+
+.container{
+  padding: 0rem;
+  margin: 0;
+
+}
+select{
+  margin:0 1rem 1rem 0;
+  cursor: pointer;
+}
+
+
+
+main{
+  background-color: aqua;
+  font-size: 16px;
+  padding: 1rem;
+}
+p{
+  margin: 1rem;
+  color: #fff;
+}
+button {
+  border: none;
+  border-radius: 0.3rem;
+  font-size: .9rem;
+  margin-bottom: 14px;
+  padding: 0px 10px 0px 10px;
+  transition: .5s;
+  
+}
+
+button:hover{
+  background-color: brown;
+  color: #fff;
+  transform:scale(1.09);
+  cursor: pointer;
+}
+
+#selBgColor{
+  color: #fff;
+  
+}
+.sel-font{
+  color: #fff;
+ 
+}
+
+
+@media screen and (max-width: 600px) {
+  .container{
+    padding: 0rem;
+    margin: 0;
+  
+  }
+  
+.dropdown {
+  
+  gap: 1px;
+  display: flex;
+  flex-direction: column;
+}
+select{
+  margin-right: 2rem;
+  margin-left: 5rem;
+  padding: .2rem;
+  margin-top: .2rem;
+  width: 60%;
+  font-size: 13px;
+  text-align: center;
+  border-radius: .2rem;
+  background-color: rgba(128, 125, 125, 0.137);
+  border: 1px groove #fff;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  
+}
+.sel-font{
+  font-size: 12px;
+  margin-left: 5rem;
+  align-items: center;
+  
+}
+#selBgColor{
+  font-size: 13px;
+  
+  margin-left: 5rem;
+
+}
+button{
+  font-size: 12px;
+  padding: .4rem;
+  width: 60%;
+  margin-left: 5rem;
+}
+
+}
